@@ -201,15 +201,15 @@ div {
   justify-content: space-around;
   text-align: center;
   margin: 5px;
-  border: 15px solid;
 }
 .box-Two {
-  width: 35%;
+  width: 24%;
   height: 500px;
   display: flex;
   flex-direction: column;
   border: 2px solid salmon;
 }
+
 .box-Two ul {
   display: flex;
   flex-direction: column;
@@ -230,6 +230,7 @@ div {
   flex-direction: column;
   margin: 20px;
 }
+
 .list li {
   margin: 10px;
 }
@@ -238,9 +239,10 @@ div {
   text-align: center;
   margin: 5px;
 }
-.red-btn-two {
+.bottom button {
   width: 170px;
   height: 40px;
+  margin-left: 25px;
   border-radius: 50px;
   border: 1px solid transparent;
   color: white;
