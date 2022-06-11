@@ -278,13 +278,11 @@ h6 {
   margin-right: 20px;
 }
 .fifth-container {
-  border: 2px solid;
-  height: 250px;
+  height: 350px;
 }
 .first-box-fifth-container,
 .second-box-fifth-container,
 .third-box-fifth-container {
-  border: 2px solid blue;
   background: #f9f9f9;
   height: 85px;
   margin-bottom: 5px;
@@ -305,4 +303,46 @@ h6 {
 
 span {
   color: #ef5466;
+}
+.first-box-fifth-container {
+  display: flex;
+  justify-content: space-between;
+}
+.second-grey-box {
+  display: flex;
+  flex-direction: column;
+}
+.grey-boxes-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.second-box-fifth-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.third-grey-box-btn button,
+.grey-boxes-btn button,
+.second-grey-box-btn button {
+  height: 50px;
+  width: 170px;
+  border-radius: 100px;
+}
+
+.second-grey-box-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-box-fifth-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.third-grey-box-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
