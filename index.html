@@ -4,271 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Deezer v1</title>
+    <!-- A copier dans le <head> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Deezer</title>
   </head>
   <body>
-    <nav>
-        <img src="./img/logo.png" alt="Deezer logo" height="20" width="50" />
-      <ul>
-        
-        <li>Télécharger</li>
-        <li>Offres</li>
-        <li>Connexion</li>
-        <li>Inscription</li>
-      </ul>
-    </nav>
+    <header>
+      <article class="img">
+        <img
+          src="./assets/img/logo.png"
+          alt="navigation-logo"
+          height="20"
+          width="60"
+        />
+      </article>
+      <nav>
+        <ul>
+          <li>Télécharger</li>
+          <li>Offres</li>
+          <li class="first-btn">Connexion</li>
+          <li class="second-btn">Inscription</li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <section class="first-container">
-        <article class="first-article-container">
+        <article class="left-part-inner-first-container">
           <h2>Vos émotions méritent d'avoir leur musique.</h2>
-          <p>Profitez de 3 mois offerts pour essayer Deezer Premium*</p>
-          <article class="btn">
-          <button>Deezer Premium</button>
-          <button>Deezer Gratuit</button>
+          <p class="pcolored">
+            Profitez de 3 mois offerts pour essayer Deezer Premium*
+          </p>
+          <section class="btn">
+            <button class="colored">Deezer Premium</button>
+            <button class="fifth-btn">Deezer Gratuit</button>
+          </section>
         </article>
-        </article>
-        <article>
-          <img src="./img/hero.png" alt="albums logo" height="300" width="450"/>
+        <article class="right-part-inner-first-container">
+          <img
+            src="./assets/img/hero.png"
+            alt="albums-logo"
+            width="280"
+            height="230"
+          />
         </article>
       </section>
+
       <section class="second-container">
-          <article class="left-part">
-        <img src="./img/phone.jpg" alt="phone logo" height="100" width="200" />
-    </article>
-    <article class="main-txt">
-        <h2>Deezer, c'est quoi ?</h2>
-    <section class="txt">
-        <section class="out-box-one">
-        <article class="box">
-          <h3></h3>
-            <b
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-              ipsa?</b
-            >
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iusto, facilis molestiae totam, sed illo exercitationem optio est cumque ab deleniti! Eligendi laborum sed optio enim aut excepturi qui ex!</p>
+        <article class="left-part-second-container">
+          <img
+            src="./assets/img/phone.jpg"
+            alt="Dezzer Phone's App"
+            height="350"
+            width="200"
+          />
         </article>
-        <article class="box">
-          <h3></h3>
-            <b
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-              ipsa?</b
-            >
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iusto, facilis molestiae totam, sed illo exercitationem optio est cumque ab deleniti! Eligendi laborum sed optio enim aut excepturi qui ex!</p>
-        </article>
-    </section>
-    <section class="out-box-two">
-        <article class="autrebox">
-          <h3></h3>
-            <b
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-              ipsa?</b
-            >
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iusto, facilis molestiae totam, sed illo exercitationem optio est cumque ab deleniti! Eligendi laborum sed optio enim aut excepturi qui ex!</p>
-        </article>
-        <article class="autrebox">
-          <h3></h3>
-            <b
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-              ipsa?</b
-            >
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iusto, facilis molestiae totam, sed illo exercitationem optio est cumque ab deleniti! Eligendi laborum sed optio enim aut excepturi qui ex!</p>
-        </article>
-    </section>
-    </section>
-    </article>
-      </section>
-      <section>
-        <article>
-          <ul>
-            <img src="" alt="laptop logo" />
-            <img src="" alt="phone logo" />
-            <img src="" alt="watch logo" />
-            <img src="" alt="ipod logo" />
-            <img src="" alt="unknown logo" />
-            <img src="" alt="tv logo" />
-            <img src="" alt="car logo" />
-          </ul>
-        </article>
-        <article>
-            <h2>Toujours avec nous</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestias nam quas quam cupiditate magnam numquam nostrum, doloribus corporis unde!</p>
-        </article>
-      </section>
-      <section>
-          <h2>Profitez de votre musique</h2>
-          <article>
-              <p>recommandé</p>
-          </article>
-          <article>
-              <h3>Deezer Graruit</h3>
-              <p>0,00</p>
-              <img src="" alt="euro logo">
-              <p>/mois</p>
-          </article>
-          <article>
-              <ul>
-                <img src="" alt="checked icon">
-                  <li>73 millions de titres</li>
-                <img src="" alt="checked icon">
-                  <li>Lecture aléatoire</li>
-                  <img src="" alt="croassed logo">
-                  <li>Sans publicité</li>
-                  <img src="" alt="croassed logo">
-                  <li>Zappez en illimité</li>
-                  <img src="" alt="croassed logo">
-                  <li>Mode hors connexions</li>
-                  <img src="" alt="croassed logo">
-                  <li>6 Comptes</li>
-              </ul>
-          </article>
-          <article>
-              <button>S'inscrire</button>
-              <p>Plus d'infos</p>
-          </article>
-          <article>
-              <h3>Deezer Graruit</h3>
-              <p>9,99</p>
-              <img src="" alt="euro logo">
-              <p>/mois</p>
-          </article>
-          <article>
-              <ul>
-                <img src="" alt="checked icon">
-                  <li>73 millions de titres</li>
-                <img src="" alt="checked icon">
-                  <li>Lecture aléatoire</li>
-                  <img src="" alt="checked logo">
-                  <li>Sans publicité</li>
-                  <img src="" alt="checked logo">
-                  <li>Zappez en illimité</li>
-                  <img src="" alt="croassed logo">
-                  <li>6 Comptes</li>
-              </ul>
-          </article>
-          <article>
-              <p>3 mois offerts</p>
-              <button>S'inscrire</button>
-              <p>Plus d'infos</p>
-          </article>
-          <article>
-              <h3>Deezer Graruit</h3>
-              <p>14,99</p>
-              <img src="" alt="euro logo">
-              <p>/mois</p>
-          </article>
-          <article>
-              <ul>
-                <img src="" alt="checked icon">
-                  <li>73 millions de titres</li>               
-                  <img src="" alt="checked logo">
-                  <li>Sans publicité</li>
-                  <img src="" alt="checked logo">
-                  <li>Zappez en illimité</li>
-                  <img src="" alt="checked logo">
-                  <li>Mode hors connexions</li>
-                  <img src="" alt="checked logo">
-                  <li>6 Comptes</li>
-              </ul>
-          </article>
-          <article>
-              <p>1 mois offerts</p>
-              <button>S'inscrire</button>
-              <p>Plus d'infos</p>
-          </article>
-         
-      </section>
-      <section>
-          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nihil recusandae fugiat enim, voluptatum veritatis laboriosam unde quaerat placeat rem libero, modi doloribus consequatur ea! Tempore explicabo inventore vitae ullam autem nam, assumenda in facilis est perferendis error hic aut incidunt quidem! Inventore quas quis nostrum excepturi corrupti culpa facere.</h5>
-      </section>
-      <section>
-          <article>
-              <h3><strong>Abonnement annuel -25%</strong></h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, veritatis!</p>
-              <h5>En savoir plus</h5>
-              <article>
-                  <button>S'abonner</button>
-              </article>
-          </article>
-          <article>
-            <h3><strong>Deezer HiFi</strong></h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, veritatis!</p>
-            
-            <article>
-                <button>En savoir plusr</button>
-            </article>
-            <article>
-                <h3><strong>Deezer Etudiant -50%</strong></h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, veritatis!</p>
-                <h5>En savoir plus</h5>
-                <article>
-                    <button>En savoir plus</button>
-                </article>
-            </article>
-          </article>
-          
+				<section class="right-part-second-container">
+					<article>
+						<h2>Deezer, c'est quoi ?</h2>
+					</article>
+					<div>
+						<article class="txt">
+							<h3>Toutes votre musique dans votre poche.</h3>
+							<p>Parmi 73 millions de titres, retrouvez de vielles connaissances et laissez-vous séduire par de nouveaux coups de coeurs</p>
+						</article>
+						<article class="txt">
+							<h3>
+								Pas de WiFi ? Pas de Problème
+							</h3>
+							<p>Avec Deezer Premium, vous n'avez pas besoin d'être connecté à internet pour profiter de votre musique préférée.</p>
+						</article>
+						<article class="txt">
+							<h3>Créez votre bibliothèque musicale.</h3>
+							<p>Recherchez parmi des millions de titres pour créer vos propres playlists et emportez-les partout avec vous.</p>
+						</article>
+						<article class="txt">
+							<h3>Un Deezer qui vous ressemble</h3>
+							<p>Flow apprend à connaître ce que vous aimez et ce que vous n'aimez pas. Découvrez votre bande-son personnalisée.</p>
+						</article>
+					</div>
+				</section>
+
+				</article>
       </section>
     </main>
-    <footer>
-        <section>
-        <article>
-            <img src="" alt="logo app-store">
-            <img src="" alt="logo google-store">
-        </article>
-        <article>
-            <h4>Deezer</h4>
-            <ul>
-                <li>Offres</li>
-                <li>Fonctionnalités</li>
-                <li>Appareils</li>
-                <li>Aide</li>
-                <li>A propos</li>
-                <li>Carrières</li>
-            </ul>
-            <h4>Explorer</h4>
-            <ul>
-                <li>Tous les univers</li>
-                <li>Top écoutes</li>
-                <li>Sortie la plus populaires</li>
-                <li>Nouveautés</li>
-                <li>On restes à la maison</li>
-            </ul>
-            <h4>Où sommes nous ?</h4>
-            <ul>
-                <li>Musiciens et podcasteurs</li>
-                <li>Développeurs</li>
-                <li>Presse</li>
-            </ul>
-            <h4>Légal</h4>
-            <ul>
-            <li>Mentions légale</li>
-            <li>Conditions générales d'utilisation</li>
-            <li>Politique de protéction des des données</li>
-            <li>Cookies</li>
-        </ul>
-        </article>
-    </section>
-    <section>
-        <article>
-        <article>
-            <img src="" alt="logo fb">
-            <img src="" alt="logo insta">
-            <img src="" alt="logo twitter">
-            <img src="" alt="logo youtube">
-        </article>
-        <article>
-            <img src="" alt="logo deezer">
-        </article>
-        <article>
-            <p>2021 Deezer Français</p>
-        </article>
-    </article>
-    </section>
-    </footer>
   </body>
 </html>
