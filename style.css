@@ -27,6 +27,21 @@ ul {
   align-items: center;
   justify-content: space-around;
 }
+.first-btn {
+  border: 2px solid #2d96c8;
+  color: #2d96c8;
+  width: 120px;
+  height: 30px;
+  border-radius: 50px;
+}
+.second-btn {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background: #2d96c8;
+  color: white;
+  width: 120px;
+  height: 30px;
+}
 
 /* RESPONSIVE PART */
 
@@ -157,7 +172,7 @@ h3 {
 .txt-container {
   height: 95%;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .txt {
   display: flex;
@@ -180,6 +195,7 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
   }
   .text-box {
     margin-top: 610px;
@@ -221,7 +237,7 @@ h3 {
 
 @media (max-width: 768px) {
   .bar-logo {
-    width: 250px;
+    width: 290px;
   }
   .red-bar {
     flex-direction: column-reverse;
@@ -229,7 +245,7 @@ h3 {
     padding-right: 50px;
     width: 50%;
     height: 100%;
-    margin-left: 110px;
+    margin-left: 170px;
   }
   .right-bar {
     height: 100%;
@@ -249,19 +265,14 @@ h3 {
 .main {
   height: 80%;
   width: 90%;
-  border: 5px solid red;
   display: flex;
 
   align-items: center;
   justify-content: center;
 }
-.title {
-  border: 2px solid salmon;
-}
 .boxes {
   height: 90%;
   width: 30%;
-  border: 3px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -274,14 +285,12 @@ h3 {
 .head {
   width: 100%;
   height: 20%;
-  border: 2px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
 .boxes ul {
-  border: 2px solid blue;
   width: 80%;
   height: 50%;
   display: flex;
@@ -308,7 +317,7 @@ h3 {
   color: #2d96c8;
 }
 .transparent {
-  color: #f9f9f9;
+  color: #eaeaea;
 }
 .color {
   color: #f9f9f9;
@@ -321,7 +330,6 @@ h3 {
   width: 95%;
   margin-top: 30px;
   text-align: center;
-  border: 3px solid;
   color: #8e8e94;
 }
 /* ********************Responsive Part***************** */
@@ -329,9 +337,14 @@ h3 {
   .main {
     /* flex-wrap: wrap; */
     flex-direction: column;
+    width: 90%;
+    height: 1111px;
+    margin-left: 88px;
+    margin-top: 30px;
   }
   .boxes {
     width: 63%;
+    height: 700px;
     margin-right: 60px;
   }
 }
