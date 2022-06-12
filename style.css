@@ -441,21 +441,33 @@ h4 {
 @media (max-width: 768px) {
   header nav {
     display: none;
+    background: url(./assets/img/images.png) fixed center/cover;
+  }
+  .img {
+    margin-left: 280px;
   }
   .first-container {
     display: flex;
     flex-wrap: wrap;
+    height: 350px;
+    margin-left: 160px;
   }
   .btn {
     flex-wrap: wrap;
     margin-right: 0px;
   }
+  .left-part-second-container {
+    display: none;
+  }
   .right-part-second-container {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
   .right-part-second-container {
+    margin-left: 800px;
     display: flex;
+
     flex-wrap: wrap;
   }
 }
