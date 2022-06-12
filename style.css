@@ -438,3 +438,24 @@ h4 {
   height: 100%;
   width: 50%;
 }
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  .first-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btn {
+    flex-wrap: wrap;
+    margin-right: 0px;
+  }
+  .right-part-second-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .right-part-second-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
