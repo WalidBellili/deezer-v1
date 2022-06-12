@@ -350,21 +350,18 @@ footer {
   height: 480px;
   background: #000;
   padding-top: 100px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .zero {
-  border: 5px solid white;
   height: 400px;
   width: 80%;
   display: flex;
   margin: 10px;
 }
 .handle {
-  border: 3px solid green;
   height: 100%;
   width: 25%;
 }
@@ -372,7 +369,6 @@ h4 {
   color: white;
 }
 .un {
-  border: 2px solid white;
   height: 90%;
   width: 90%;
   color: white;
@@ -383,7 +379,6 @@ h4 {
   align-items: start;
 }
 .handle2 {
-  border: 3px solid green;
   color: white;
   height: 100%;
   width: 25%;
@@ -391,7 +386,6 @@ h4 {
   align-items: center;
 }
 .deux {
-  border: 2px solid white;
   height: 90%;
   width: 90%;
 }
@@ -401,7 +395,6 @@ h4 {
   align-items: start;
 }
 .handle3 {
-  border: 3px solid green;
   height: 53%;
   width: 25%;
   display: flex;
@@ -409,7 +402,6 @@ h4 {
   color: white;
 }
 .handle4 {
-  border: 3px solid green;
   height: 100%;
   width: 25%;
   display: flex;
@@ -417,7 +409,6 @@ h4 {
   color: white;
 }
 .trois {
-  border: 2px solid white;
   height: 80%;
   width: 90%;
 }
@@ -427,13 +418,11 @@ h4 {
   align-items: start;
 }
 .footer-logo {
-  border: 5px solid white;
   height: 400px;
   width: 80%;
 }
 
 .quatre {
-  border: 2px solid white;
   height: 90%;
   width: 90%;
 }
@@ -444,4 +433,8 @@ h4 {
 }
 .footer-logo {
   height: 20%;
+}
+.social-network {
+  height: 100%;
+  width: 50%;
 }
